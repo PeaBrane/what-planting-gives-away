@@ -1,0 +1,6 @@
+[a5_unsat4] L=168 cells=1185408 types=11 {'affine': 1181320, 'search': 4088} E0=-9475088  [0.0s RSS 79MB]
+  affine: consistent=True components=67 cc_iters=3 parity1_joins=0  [0.5s RSS 118MB]
+  search cells=4088 variables=4471  [0.0s RSS 123MB]
+  TILE planted=False; NAE-sat=False; agree=True; search {'decisions': 3, 'conflicts': 4, 'forced': 10608}  [0.0s]
+  pinned assignments: TILE(pinned) == NAE(a) for 8/8; 0 pinned ground states re-verified (local minima, E0, read-off = a, every network constant); mismatches []  [0.0s RSS 123MB]
+  total 0.6s, peak RSS 123MB

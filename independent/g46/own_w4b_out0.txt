@@ -1,0 +1,1 @@
+socket ((0, -1), (0, 1)) (port (literal, polarity) -> socket (a, b)); margin 1: (unpinned template cells, unpinned cluster cells) per face {(0, 1): (0, 0), (0, -1): (0, 0), (1, 1): (0, 0), (1, -1): (0, 0), (2, 1): (0, 0)}  [3.5s RSS 137MB]

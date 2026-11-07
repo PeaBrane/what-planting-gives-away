@@ -1,0 +1,3 @@
+[a5_unsat4] L=168 construction cells 4112  [3.6s RSS 88MB]
+  assign (frozen): {'lock_components_with_B': 395, 'main_component_B_incidences': 9473844, 'anchored_components': 395, 'bg_incidences_never_anchored': 0}  [10.3s RSS 110MB]
+  wrote inst/a5_unsat4.npz: 11 coupling types, 4112 non-background cells  [total 13.9s RSS 153MB]

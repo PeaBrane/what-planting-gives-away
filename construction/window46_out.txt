@@ -1,0 +1,5 @@
+refs per block: 1200
+(W1) {'windows': 6, 'comps_and_refs': {-4: (1, 3340), -3: (1, 3340), -2: (1, 550), 1: (1, 550), 2: (1, 3340), 3: (1, 3340)}, 'failing': {}} [1.6s]
+(W2) {'margin_blocks': 2, 'cluster_cells_outside_region': 0, 'region_bg_cells': 20472, 'f6_cells': 257, 'fanouts': 6, 'anchored_start': 2104, 'unpinned': 0, 'example': []} [4.9s]
+(W3) {'checks': 90, 'failing': {(1, (0, -1), (2, -1)): 1, (1, (0, 1), (2, -1)): 1, (1, (1, -1), (2, -1)): 1, (1, (1, 1), (2, -1)): 1, (1, (2, -1), (0, -1)): 1, (1, (2, -1), (0, 1)): 1, (1, (2, -1), (1, -1)): 1, (1, (2, -1), (1, 1)): 1, (1, (2, -1), (2, 1)): 1, (1, (2, 1), (2, -1)): 1}} [6.4s]
+(W4) {'sockets_joined': 6, 'f6_cells': 329, 'anchored_start': 2438, 'unpinned': 0, 'example': []} [1.6s]

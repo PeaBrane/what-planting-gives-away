@@ -1,0 +1,22 @@
+(L1) foam lemma: {'P': (48, 48, 48), 'foam_cells': 11072, 'components': 1921, 'giant': 1, 'sizes_top': [80640, 8, 8], 'largest_small': 8} [0.2s]
+(L2) template lemma: {'templates': 30, 'failures': {}} [0.2s]
+(L3) cluster lemma, isolated region (8x6x4-block torus): {'torus_blocks': (8, 6, 4), 'foam_cells': 24912, 'giant_components': 1, 'region_bg_cells': 20472, 'f6_cells': 257, 'pinned': 257, 'unpinned': 0, 'example': []} [4.5s]
+(L3') cluster lemma, slab of adjacent regions (6x4x6-block torus, region periodic in x, y): {'torus_blocks': (6, 4, 6), 'foam_cells': 16608, 'giant_components': 1, 'region_bg_cells': 20472, 'f6_cells': 257, 'pinned': 257, 'unpinned': 0, 'example': []} [0.6s]
+        5.62 real         5.51 user         0.04 sys
+            92127232  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                6339  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                   1  voluntary context switches
+                3213  involuntary context switches
+            17250259  instructions retired
+             6794179  cycles elapsed
+             1016120  peak memory footprint

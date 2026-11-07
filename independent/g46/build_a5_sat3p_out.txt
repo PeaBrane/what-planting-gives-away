@@ -1,0 +1,3 @@
+[a5_sat3p] L=168 construction cells 3077  [3.7s RSS 88MB]
+  assign (frozen): {'lock_components_with_B': 299, 'main_component_B_incidences': 9476178, 'anchored_components': 299, 'bg_incidences_never_anchored': 0}  [10.4s RSS 110MB]
+  wrote inst/a5_sat3p.npz: 11 coupling types, 3077 non-background cells  [total 14.1s RSS 153MB]

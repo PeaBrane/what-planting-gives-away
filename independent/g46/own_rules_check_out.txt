@@ -1,0 +1,11 @@
+class_sizes: {'F0': 128, 'F21': 1536, 'F22': 384, 'F41': 1536, 'F42': 384, 'F6': 128}
+gamma_sizes: {'F0': [2], 'F21': [2], 'F22': [8], 'F41': [4], 'F42': [4], 'F6': [16]}
+F42_with_0_not_two_face_plates: 0
+background: {(0, 0, 0): {'ax': 0, 'cls': 'F42', 'affine': True, 'parities0': True, 'plates_perp_ax': True}, (1, 1, 1): {'ax': 0, 'cls': 'F42', 'affine': True, 'parities0': True, 'plates_perp_ax': True}, (2, 2, 2): {'ax': 0, 'cls': 'F42', 'affine': True, 'parities0': True, 'plates_perp_ax': True}, (2, 0, 0): {'ax': 2, 'cls': 'F42', 'affine': True, 'parities0': True, 'plates_perp_ax': True}, (1, 1, 3): {'ax': 2, 'cls': 'F42', 'affine': True, 'parities0': True, 'plates_perp_ax': True}, (0, 0, 4): {'ax': 1, 'cls': 'F42', 'affine': True, 'parities0': True, 'plates_perp_ax': True}}
+fanouts_ok: True
+self_pinnable: {'pairs': 768, 'pinnable': 300, 'mismatches_vs_frozen': 0, 'frozen_W_invalid': 0}
+pinnable_monotone_violations: 0
+fact82_violations: 0
+two_floating_corners_pinnable_count: {True: 132, False: 48}
+clause: {(0, 0, 0): ('F6', True, True), (0, 0, 1): ('F6', True, True), (0, 1, 0): ('F6', True, True), (0, 1, 1): ('F6', True, True), (1, 0, 0): ('F6', True, True), (1, 0, 1): ('F6', True, True), (1, 1, 0): ('F6', True, True), (1, 1, 1): ('F6', True, True)}
+ferro_gauge_orbits: {'F42': {'ferro_gauge_members': 6, 'oh_orbit_of_one': 6, 'single_orbit': True}, 'F6': {'ferro_gauge_members': 8, 'oh_orbit_of_one': 8, 'single_orbit': True}}

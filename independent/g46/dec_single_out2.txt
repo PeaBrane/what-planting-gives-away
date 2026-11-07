@@ -1,0 +1,7 @@
+[a5_single] L=96 cells=221184 types=10 {'affine': 220635, 'search': 549} E0=-1768374  [0.0s RSS 44MB]
+  affine: consistent=True components=17 cc_iters=3 parity1_joins=0  [0.1s RSS 68MB]
+  search cells=549 variables=627  [0.0s RSS 69MB]
+  TILE planted=True; NAE-sat=True; agree=True; search {'decisions': 2, 'conflicts': 0, 'forced': 624}  [0.0s]
+  certificate: all cells at local minimum=True; H(cells)=-1768374; H(edges)=-1768374; E0=-1768374; ground state=True; read-off [0, 0, 0] NAE-satisfies=True  [0.1s RSS 69MB]
+  pinned assignments: TILE(pinned) == NAE(a) for 8/8; mismatches []  [0.0s RSS 69MB]
+  total 0.2s, peak RSS 69MB

@@ -1,0 +1,14 @@
+[single] G46 n=3 m=1 clauses=[[(0, 0), (1, 0), (2, 0)]] margin_blocks=1
+  layout A: 3 loop edges, heights [2, 3]; L=96 cells=221184; classes {'F42': 220635, 'F6': 549, 'anchoring_rounds': 2}; lemma hypotheses OK; anchor {'lock_components_with_B': 81, 'main_component_B_incidences': 1768106, 'anchored_components': 81, 'bg_incidences_never_anchored': 0}; networks 4 connected w/o clause cells: True  [6.3s]
+  TILE planted=True (state re-checked: True); NAE-sat=True; agree=True  [4.9s]
+  read-off assignment [1, 0, 0] NAE-satisfies: True
+  pinned agree 8/8  [7.6s]  peak RSS 144 MB
+       18.92 real        18.57 user         0.19 sys
+           143966208  maximum resident set size
+[single_neg] G46 n=3 m=1 clauses=[[(0, 1), (1, 0), (2, 1)]] margin_blocks=1
+  layout A: 3 loop edges, heights [2, 3]; L=96 cells=221184; classes {'F42': 220635, 'F6': 549, 'anchoring_rounds': 2}; lemma hypotheses OK; anchor {'lock_components_with_B': 81, 'main_component_B_incidences': 1768106, 'anchored_components': 81, 'bg_incidences_never_anchored': 0}; networks 4 connected w/o clause cells: True  [6.2s]
+  TILE planted=True (state re-checked: True); NAE-sat=True; agree=True  [4.7s]
+  read-off assignment [0, 0, 0] NAE-satisfies: True
+  pinned agree 8/8  [7.5s]  peak RSS 145 MB
+       18.60 real        18.35 user         0.16 sys
+           145391616  maximum resident set size

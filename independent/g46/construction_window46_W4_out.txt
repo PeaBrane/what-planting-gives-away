@@ -1,0 +1,2 @@
+refs per block: 1200
+(W4) {'sockets_joined': 6, 'f6_cells': 329, 'anchored_start': 2438, 'unpinned': 0, 'example': []} [5.6s]

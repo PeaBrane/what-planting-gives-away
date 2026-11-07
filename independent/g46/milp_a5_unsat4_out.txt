@@ -1,0 +1,1 @@
+[a5_unsat4] MILP over 4471 variables, 4088 table constraints (20971 columns, 36792 rows): status=2 (The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)); feasible=False  [0.7s RSS 210MB]

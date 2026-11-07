@@ -1,0 +1,3 @@
+[a5_rand3p] L=168 construction cells 3037  [3.6s RSS 88MB]
+  assign (frozen): {'lock_components_with_B': 301, 'main_component_B_incidences': 9476230, 'anchored_components': 301, 'bg_incidences_never_anchored': 0}  [10.3s RSS 110MB]
+  wrote inst/a5_rand3p.npz: 11 coupling types, 3037 non-background cells  [total 14.0s RSS 153MB]

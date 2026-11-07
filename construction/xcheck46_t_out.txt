@@ -1,0 +1,2 @@
+[unsat4] L=168: 244 path blocks checked against the (W3)/(W4) template model; z=1 non-socket templates: 0; min path z = 1; mismatches {'link_mismatch': 0, 'interior_not_bg': 0, 'foam_not_bg': 0}
+[sat3] L=168: 159 path blocks checked against the (W3)/(W4) template model; z=1 non-socket templates: 0; min path z = 1; mismatches {'link_mismatch': 0, 'interior_not_bg': 0, 'foam_not_bg': 0}

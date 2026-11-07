@@ -1,0 +1,2 @@
+[unsat4] L=168 patches=4; W4 model: 91112 background cells, 329 F6 cells; mismatches per type summed over patches: {'bg_not_bg': 0, 'f6_missing': 0, 'f6_links_differ': 0}
+[sat3] L=168 patches=3; W4 model: 91112 background cells, 329 F6 cells; mismatches per type summed over patches: {'bg_not_bg': 0, 'f6_missing': 0, 'f6_links_differ': 0}

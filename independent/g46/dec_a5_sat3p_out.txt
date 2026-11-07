@@ -1,0 +1,8 @@
+[a5_sat3p] L=168 cells=1185408 types=11 {'affine': 1182349, 'search': 3059} E0=-9477146  [0.0s RSS 79MB]
+  affine: consistent=True components=53 cc_iters=3 parity1_joins=0  [0.5s RSS 118MB]
+  search cells=3059 variables=3349  [0.0s RSS 122MB]
+  TILE planted=True; NAE-sat=True; agree=True; search {'decisions': 4, 'conflicts': 0, 'forced': 3344}  [0.0s]
+  read-off: sigma constant on 7/7 networks (3104 link vertices)
+  certificate: all cells at local minimum=True; H(cells)=-9477146; H(edges)=-9477146; E0=-9477146; ground state=True; read-off [0, 0, 0, 0] NAE-satisfies=True  [0.5s RSS 122MB]
+  pinned assignments: TILE(pinned) == NAE(a) for 16/16; 8 pinned ground states re-verified (local minima, E0, read-off = a, every network constant); mismatches []  [4.1s RSS 124MB]
+  total 5.2s, peak RSS 124MB

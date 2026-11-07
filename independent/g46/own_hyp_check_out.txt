@@ -1,0 +1,5 @@
+[a5_single] L=96 types ['F42', 'F6']; networks 4; cells 555; violations {'class_not_F6_F42': 0, 'bg_0_missing': 0, 'asym_link': 0, 'wire': 0, 'fanout': 0, 'clause': 0, 'net_disconnected': 0}
+[a5_unsat4] L=168 types ['F42', 'F6']; networks 7; cells 4112; violations {'class_not_F6_F42': 0, 'bg_0_missing': 0, 'asym_link': 0, 'wire': 0, 'fanout': 0, 'clause': 0, 'net_disconnected': 0}
+[a5_sat3p] L=168 types ['F42', 'F6']; networks 7; cells 3077; violations {'class_not_F6_F42': 0, 'bg_0_missing': 0, 'asym_link': 0, 'wire': 0, 'fanout': 0, 'clause': 0, 'net_disconnected': 0}
+[a5_rand4] L=168 types ['F42', 'F6']; networks 8; cells 3900; violations {'class_not_F6_F42': 0, 'bg_0_missing': 0, 'asym_link': 0, 'wire': 0, 'fanout': 0, 'clause': 0, 'net_disconnected': 0}
+[a5_rand3p] L=168 types ['F42', 'F6']; networks 7; cells 3037; violations {'class_not_F6_F42': 0, 'bg_0_missing': 0, 'asym_link': 0, 'wire': 0, 'fanout': 0, 'clause': 0, 'net_disconnected': 0}
