@@ -1,0 +1,3 @@
+diamond full support: min U = 2, |W| = 6, f = 1/3, U(+1) = 2, +1 ground state (W in P): True, tight-cut rank = 3 of m-1 = 4
+K44 LP facet normal: min U = 7, |W| = 24, f = 7/24, U(+1) = 7, +1 ground state (W in P): True, tight-cut rank = 15 of m-1 = 15
+K5 pentagonal: min U = 4, |W| = 10, f = 2/5, U(+1) = 4, +1 ground state (W in P): True, tight-cut rank = 9 of m-1 = 9

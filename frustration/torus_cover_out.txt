@@ -1,0 +1,6 @@
+L=2: |E|=24 #plaq=24 edges-per-plaquette-in-X: min=1 max=1 |X|=6 |E|/4=6  every edge in 4 plaquettes: True  all plaquettes frustrated: True  U(+1)=6  lower bound #plaq/4=6  distinct plaquettes per edge (L=2): {4}
+   L=2 brute force over 2^8 states: min U = 6  (|E|/4 = 6)
+   L=2 parallel pairs have equal sign (2-cycles unfrustrated): True
+   L=2 number of exact one-per-plaquette sets: 8
+L=4: |E|=192 #plaq=192 edges-per-plaquette-in-X: min=1 max=1 |X|=48 |E|/4=48  every edge in 4 plaquettes: True  all plaquettes frustrated: True  U(+1)=48  lower bound #plaq/4=48
+L=6: |E|=648 #plaq=648 edges-per-plaquette-in-X: min=1 max=1 |X|=162 |E|/4=162  every edge in 4 plaquettes: True  all plaquettes frustrated: True  U(+1)=162  lower bound #plaq/4=162

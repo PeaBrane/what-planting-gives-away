@@ -1,0 +1,15 @@
+[single] L=32 cells=8192 build 0.1s structural: {'class_counts': {'F21': 8170, 'F41': 18, 'F42': 3, 'F22': 1}, 'B_graph_connected': True, 'networks_connected': True, 'n_networks': 4}
+  TILE feasible=True (independent check of returned s: True), formula NAE-satisfiable=True  [0.3s]
+  pinned assignments all agreeing with NAE: 8/8  [1.3s total]
+        1.46 real         1.38 user         0.07 sys
+           115998720  maximum resident set size
+[sat3] L=32 cells=8192 build 1.2s structural: {'class_counts': {'F21': 7870, 'F41': 310, 'F42': 9, 'F22': 3}, 'B_graph_connected': True, 'networks_connected': True, 'n_networks': 6}
+  TILE feasible=True (independent check of returned s: True), formula NAE-satisfiable=True  [5.2s]
+  pinned assignments all agreeing with NAE: 8/8  [6.1s total]
+        7.42 real         7.33 user         0.10 sys
+           137035776  maximum resident set size
+[unsat4] L=32 cells=8192 build 1.6s structural: {'class_counts': {'F21': 7732, 'F41': 444, 'F42': 12, 'F22': 4}, 'B_graph_connected': True, 'networks_connected': True, 'n_networks': 7}
+  TILE feasible=False (independent check of returned s: False), formula NAE-satisfiable=False  [1.7s]
+  pinned assignments all agreeing with NAE: 8/8  [2.6s total]
+        4.34 real         4.23 user         0.08 sys
+           117063680  maximum resident set size

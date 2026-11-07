@@ -1,0 +1,20 @@
+class sizes over all 4096 couplings: {'F0': 128, 'F21': 1536, 'F22': 384, 'F41': 1536, 'F42': 384, 'F6': 128}
+ground-state pairs |Gamma|/2 per class: {'F0': [1], 'F21': [1], 'F22': [4], 'F41': [2], 'F42': [2], 'F6': [8]}
+odd flips between ground states: 0
+2-flips between ground states that are not dominoes: 0
+F0: W=(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1) |Gamma|=2 flip sets (mod complement): []
+   delta-matroid: False, even delta-matroid: False, Schaefer: {'horn': True, 'dualhorn': True, 'bijunctive': True, 'affine': True}
+F21: W=(-1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1) |Gamma|=2 flip sets (mod complement): []
+   delta-matroid: False, even delta-matroid: False, Schaefer: {'horn': True, 'dualhorn': True, 'bijunctive': True, 'affine': True}
+F22: W=(-1, 1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1) |Gamma|=8 flip sets (mod complement): ['{000,001}', '{100,101}', '{000,100,001,101}', '{010,011}', '{000,010,001,011}', '{000,100,010,001,101,011}']
+   delta-matroid: False, even delta-matroid: False, Schaefer: {'horn': False, 'dualhorn': False, 'bijunctive': False, 'affine': False}
+F41: W=(1, -1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1) |Gamma|=4 flip sets (mod complement): ['{000,001}']
+   delta-matroid: False, even delta-matroid: False, Schaefer: {'horn': True, 'dualhorn': True, 'bijunctive': True, 'affine': True}
+F42: W=(1, 1, 1, 1, -1, 1, -1, 1, 1, 1, 1, 1) |Gamma|=4 flip sets (mod complement): ['{000,100,010,110}']
+   delta-matroid: False, even delta-matroid: False, Schaefer: {'horn': True, 'dualhorn': True, 'bijunctive': True, 'affine': True}
+F6: W=(1, 1, 1, 1, -1, -1, 1, 1, 1, -1, 1, 1) |Gamma|=16 flip sets (mod complement): ['{000,100}', '{000,010}', '{100,110}', '{010,110}', '{000,001}', '{000,100,010,001}', '{000,100,110,001}', '{000,010,110,001}', '{100,101}', '{000,100,010,101}', '{000,100,110,101}', '{100,010,110,101}', '{001,101}', '{000,010,001,101}', '{100,110,001,101}', '{000,100,010,110,001,101}', '{010,011}', '{000,100,010,011}', '{000,010,110,011}', '{100,010,110,011}', '{001,011}', '{000,100,001,011}', '{010,110,001,011}', '{000,100,010,110,001,011}', '{000,001,101,011}', '{100,001,101,011}', '{010,001,101,011}', '{000,100,010,001,101,011}']
+   delta-matroid: False, even delta-matroid: False, Schaefer: {'horn': False, 'dualhorn': False, 'bijunctive': False, 'affine': False}
+F22 column relation (c00,c10,c11,c01): ['0000', '0100', '0110', '0111', '1000', '1001', '1011', '1111']
+  exists c01: (c00,c10,c11) in ['000', '010', '011', '100', '101', '111']  missing: ['001', '110']
+  column relation delta-matroid: False  Schaefer: {'horn': False, 'dualhorn': False, 'bijunctive': False, 'affine': False}
+orbit sizes under Oh x gauge: {'F0': 128, 'F21': 1536, 'F22': 384, 'F41': 1536, 'F42': 384, 'F6': 128} total 4096

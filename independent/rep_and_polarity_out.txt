@@ -1,0 +1,6 @@
+F21 rep -1 on (0,1): [0, 255] == [0,255]: True
+F41 rep -1 on (0,2),(4,5): [0, 17, 238, 255] == {0,1_D,1_Dc,255} with D={0,4}: True
+F42 rep -1 on (1,5),(2,6): [0, 15, 240, 255] == face z=0: True
+first-run builder, literal position 0: polarity (port1, port2) = (+1, -1)
+first-run builder, literal position 1: polarity (port1, port2) = (-1, +1)
+first-run builder, literal position 2: polarity (port1, port2) = (+1, -1)

@@ -1,0 +1,60 @@
+[single] n=3 m=1 clauses=[[(0, 0), (1, 0), (2, 0)]] margin_blocks=1
+  layout A: 3 loop edges, coarse heights [2]; L=64 N=262144 cells=65536; well-typed: OK; classes {'F21': 65158, 'F41': 374, 'F42': 3, 'F22': 1}; networks 4 all connected: True  [0.5s]
+  TILE planted=True (returned state re-checked cell by cell: True); formula NAE-satisfiable=True; agree=True  [0.6s]
+  read-off assignment [0, 0, 1] NAE-satisfies the formula: True
+  pinned assignments agreeing with NAE: 8/8  [2.3s]  peak RSS so far 91 MB
+        3.40 real         3.28 user         0.09 sys
+            91111424  maximum resident set size
+[single_neg] n=3 m=1 clauses=[[(0, 1), (1, 0), (2, 1)]] margin_blocks=1
+  layout A: 3 loop edges, coarse heights [2]; L=64 N=262144 cells=65536; well-typed: OK; classes {'F21': 65158, 'F41': 374, 'F42': 3, 'F22': 1}; networks 4 all connected: True  [0.5s]
+  TILE planted=True (returned state re-checked cell by cell: True); formula NAE-satisfiable=True; agree=True  [0.6s]
+  read-off assignment [0, 0, 0] NAE-satisfies the formula: True
+  pinned assignments agreeing with NAE: 8/8  [2.2s]  peak RSS so far 92 MB
+        3.37 real         3.25 user         0.09 sys
+            91897856  maximum resident set size
+[pair] n=3 m=2 clauses=[[(0, 0), (1, 0), (2, 0)], [(0, 1), (1, 1), (2, 1)]] margin_blocks=0
+  layout A: 6 loop edges, coarse heights [2, 3, 4, 5, 6, 7]; L=96 N=884736 cells=221184; well-typed: OK; classes {'F21': 219888, 'F41': 1288, 'F42': 6, 'F22': 2}; networks 5 all connected: True  [1.0s]
+  TILE planted=True (returned state re-checked cell by cell: True); formula NAE-satisfiable=True; agree=True  [1.5s]
+  read-off assignment [0, 0, 1] NAE-satisfies the formula: True
+  pinned assignments agreeing with NAE: 8/8  [7.5s]  peak RSS so far 99 MB
+       10.14 real         9.96 user         0.12 sys
+            99205120  maximum resident set size
+[sat3] n=3 m=3 clauses=[[(0, 0), (1, 0), (2, 0)], [(0, 0), (1, 0), (2, 1)], [(0, 0), (1, 1), (2, 0)]] margin_blocks=0
+  layout A: 9 loop edges, coarse heights [2, 3, 4, 5]; L=96 N=884736 cells=221184; well-typed: OK; classes {'F21': 219450, 'F41': 1722, 'F42': 9, 'F22': 3}; networks 6 all connected: True  [1.1s]
+  TILE planted=True (returned state re-checked cell by cell: True); formula NAE-satisfiable=True; agree=True  [1.5s]
+  read-off assignment [1, 0, 0] NAE-satisfies the formula: True
+  pinned assignments agreeing with NAE: 8/8  [7.7s]  peak RSS so far 99 MB
+       10.30 real        10.11 user         0.11 sys
+            99303424  maximum resident set size
+[unsat4] n=3 m=4 clauses=[[(0, 0), (1, 0), (2, 0)], [(0, 0), (1, 0), (2, 1)], [(0, 0), (1, 1), (2, 0)], [(0, 1), (1, 0), (2, 0)]] margin_blocks=0
+  layout A: 12 loop edges, coarse heights [2, 3, 4, 5, 6, 7]; L=96 N=884736 cells=221184; well-typed: OK; classes {'F21': 218628, 'F41': 2540, 'F42': 12, 'F22': 4}; networks 7 all connected: True  [1.0s]
+  TILE planted=False (returned state re-checked cell by cell: False); formula NAE-satisfiable=False; agree=True  [1.2s]
+  pinned assignments agreeing with NAE: 8/8  [8.0s]  peak RSS so far 100 MB
+       10.36 real        10.09 user         0.12 sys
+           100220928  maximum resident set size
+[rand:3:4:20] n=3 m=4 clauses=[[(2, 0), (0, 1), (1, 0)], [(0, 0), (1, 0), (2, 0)], [(1, 1), (2, 0), (0, 0)], [(1, 1), (2, 0), (0, 1)]] margin_blocks=0
+  layout A: 12 loop edges, coarse heights [2, 3, 4, 5, 6, 7]; L=96 N=884736 cells=221184; well-typed: OK; classes {'F21': 218580, 'F41': 2588, 'F42': 12, 'F22': 4}; networks 7 all connected: True  [1.1s]
+  TILE planted=False (returned state re-checked cell by cell: False); formula NAE-satisfiable=False; agree=True  [1.1s]
+  pinned assignments agreeing with NAE: 8/8  [7.8s]  peak RSS so far 100 MB
+       10.05 real         9.88 user         0.12 sys
+           100139008  maximum resident set size
+[rand:4:4:58] n=4 m=4 clauses=[[(1, 0), (0, 0), (2, 1)], [(3, 1), (1, 1), (2, 1)], [(2, 0), (3, 1), (0, 0)], [(3, 1), (0, 1), (1, 0)]] margin_blocks=0
+  layout A: 12 loop edges, coarse heights [2, 3, 4, 5, 6]; L=96 N=884736 cells=221184; well-typed: OK; classes {'F21': 218716, 'F41': 2452, 'F42': 12, 'F22': 4}; networks 8 all connected: True  [1.1s]
+  TILE planted=False (returned state re-checked cell by cell: False); formula NAE-satisfiable=False; agree=True  [1.1s]
+  pinned assignments agreeing with NAE: 8/8  [7.6s]  peak RSS so far 100 MB
+        9.83 real         9.72 user         0.11 sys
+           100237312  maximum resident set size
+[rand:5:4:0] n=5 m=4 clauses=[[(3, 1), (4, 1), (0, 1)], [(2, 0), (3, 0), (1, 1)], [(1, 1), (0, 0), (2, 1)], [(0, 1), (4, 1), (2, 0)]] margin_blocks=0
+  layout A: 12 loop edges, coarse heights [2, 3, 4, 5, 6, 7, 8]; L=96 N=884736 cells=221184; well-typed: OK; classes {'F21': 218524, 'F41': 2644, 'F42': 12, 'F22': 4}; networks 9 all connected: True  [1.0s]
+  TILE planted=True (returned state re-checked cell by cell: True); formula NAE-satisfiable=True; agree=True  [1.6s]
+  read-off assignment [0, 0, 0, 1, 0] NAE-satisfies the formula: True
+  pinned assignments agreeing with NAE: 8/8  [7.6s]  peak RSS so far 100 MB
+       10.37 real        10.19 user         0.10 sys
+           100679680  maximum resident set size
+[rand:6:4:1] n=6 m=4 clauses=[[(1, 1), (4, 0), (0, 1)], [(3, 0), (5, 0), (4, 1)], [(0, 0), (3, 1), (4, 1)], [(5, 1), (1, 0), (0, 0)]] margin_blocks=0
+  layout A: 12 loop edges, coarse heights [2, 3, 4, 5, 6, 7, 8]; L=96 N=884736 cells=221184; well-typed: OK; classes {'F21': 218504, 'F41': 2664, 'F42': 12, 'F22': 4}; networks 9 all connected: True  [1.0s]
+  TILE planted=True (returned state re-checked cell by cell: True); formula NAE-satisfiable=True; agree=True  [1.6s]
+  read-off assignment [0, 0, 0, 0, 0, 0] NAE-satisfies the formula: True
+  pinned assignments agreeing with NAE: 8/8  [8.1s]  peak RSS so far 100 MB
+       10.79 real        10.58 user         0.13 sys
+           100630528  maximum resident set size

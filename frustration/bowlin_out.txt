@@ -1,0 +1,20 @@
+Petersen / spokes contracted: |V| = 5  |E| = 10  K5: True
+K44 / 3 matching edges contracted: |V| = 5  |E| = 10  K5: True
+Bowlin K_{4,8}: frustration index = 10  |E| = 32  f = 5/16  #ground states (s_0=+1) = 64
+  gauged W in P: True  neg(W) = 10
+  #tight cuts (incl. empty) = 64  rank = 31  (m-1 = 31 )
+K_(4,4): multisets=330  f*_w = 0.291667  ~ 7/24  (5/16 = 0.312500, 1/4 = 0.25)
+   best column types: [(np.int64(1), np.int64(1), np.int64(1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(1), np.int64(-1)), (np.int64(1), np.int64(1), np.int64(-1), np.int64(1)), (np.int64(1), np.int64(-1), np.int64(1), np.int64(-1))]
+   weights (rows = columns, scaled): [[0.5, 0.5, 1.0, 1.0], [0.5, 1.0, 0.5, 1.0], [1.0, 0.5, 1.0, 0.5], [1.0, 1.0, 0.5, 0.5]]
+K_(4,5): multisets=792  f*_w = 0.300000  ~ 3/10  (5/16 = 0.312500, 1/4 = 0.25)
+   best column types: [(np.int64(1), np.int64(1), np.int64(1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(1), np.int64(-1)), (np.int64(1), np.int64(1), np.int64(-1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(-1), np.int64(-1)), (np.int64(1), np.int64(-1), np.int64(1), np.int64(1))]
+   weights (rows = columns, scaled): [[0.5, 0.5, 0.5, 0.5], [0.5, 0.5, 0.5, 0.5], [0.5, 0.5, 0.5, 0.5], [0.5, 0.5, 0.5, 0.5], [1.0, 1.0, 0.0, -0.0]]
+K_(4,6): multisets=1716  f*_w = 0.300000  ~ 3/10  (5/16 = 0.312500, 1/4 = 0.25)
+   best column types: [(np.int64(1), np.int64(1), np.int64(1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(1), np.int64(-1)), (np.int64(1), np.int64(1), np.int64(-1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(-1), np.int64(-1)), (np.int64(1), np.int64(-1), np.int64(1), np.int64(1))]
+   weights (rows = columns, scaled): [[-0.0, -0.0, -0.0, -0.0], [0.5, 0.5, 0.5, 0.5], [0.5, 0.5, 0.5, 0.5], [0.5, 0.5, 0.5, 0.5], [0.5, 0.5, 0.5, 0.5], [1.0, 1.0, -0.0, -0.0]]
+K_(4,7): multisets=3432  f*_w = 0.300000  ~ 3/10  (5/16 = 0.312500, 1/4 = 0.25)
+   best column types: [(np.int64(1), np.int64(1), np.int64(1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(1), np.int64(-1)), (np.int64(1), np.int64(1), np.int64(-1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(-1), np.int64(-1)), (np.int64(1), np.int64(-1), np.int64(1), np.int64(1))]
+   weights (rows = columns, scaled): [[0.0, -0.0, -0.0, -0.0], [0.5, 0.5, 0.5, 0.5], [-0.0, -0.0, -0.0, -0.0], [0.5, 0.5, 0.5, 0.5], [0.5, 0.5, 0.5, 0.5], [0.5, 0.5, 0.5, 0.5], [1.0, 1.0, -0.0, -0.0]]
+K_(4,8): multisets=6435  f*_w = 0.312500  ~ 5/16  (5/16 = 0.312500, 1/4 = 0.25)
+   best column types: [(np.int64(1), np.int64(1), np.int64(1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(1), np.int64(-1)), (np.int64(1), np.int64(1), np.int64(-1), np.int64(1)), (np.int64(1), np.int64(1), np.int64(-1), np.int64(-1)), (np.int64(1), np.int64(-1), np.int64(1), np.int64(1)), (np.int64(1), np.int64(-1), np.int64(1), np.int64(-1)), (np.int64(1), np.int64(-1), np.int64(-1), np.int64(1)), (np.int64(1), np.int64(-1), np.int64(-1), np.int64(-1))]
+   weights (rows = columns, scaled): [[1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0]]

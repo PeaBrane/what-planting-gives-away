@@ -1,0 +1,1 @@
+Q3 cycles: 28 (by length [4, 6, 8]), loop atoms: 168; +-1 couplings with all-plus a ground state: 63; not in K(Q3): 0

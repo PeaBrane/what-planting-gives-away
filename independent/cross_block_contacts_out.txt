@@ -1,0 +1,1 @@
+template pairs in neighbouring blocks with at least one vertex-sharing cell pair: {('face', 'both use the shared face'): 600}

@@ -1,0 +1,31 @@
+Lemma 2.1 (T-join duality, H = -12 + 2|U|, 2-to-1 onto min T-joins) for all 4096: True
+class, |Gamma|, shape in a gauge with 0 in Gamma, affine  ->  #couplings
+   ('F0', 2, 'rigid', True) 128
+   ('F21', 2, 'rigid', True) 1536
+   ('F22', 8, 'size8', False) 384
+   ('F41', 4, 'domino', True) 1536
+   ('F42', 4, 'face', True) 384
+   ('F6', 16, 'size16', False) 128
+sum_W |Gamma(W)| = 16128 ; /256 = 63.0 ; #W with 0 in Gamma = 63
+F22: locked corner pairs are exactly the 4 edges perpendicular to the frustrated faces: True
+Theorem B: (class, |Gamma|<=4) -> set of affine flags: {('F0', True): [True], ('F21', True): [True], ('F22', False): [False], ('F41', True): [True], ('F42', True): [True], ('F6', False): [False]}
+W0 class: F22 |Gamma| = 8
+Lemma 2.3(1) column-locked: True
+Lemma 2.3(2) column bits (t00,t10,t11,t01): ['0000', '0100', '0110', '0111', '1000', '1001', '1011', '1111']
+Lemma 2.3(3) projection: [(0, 0, 0), (0, 0, 1), (0, 1, 1), (1, 0, 0), (1, 1, 0), (1, 1, 1)] == NAE(t10, not t11, t01): True
+  eps (0, 0, 0) gauge mask 136 proj == NAE(t xor eps): True
+  eps (0, 0, 1) gauge mask 204 proj == NAE(t xor eps): True
+  eps (0, 1, 0) gauge mask 0 proj == NAE(t xor eps): True
+  eps (0, 1, 1) gauge mask 68 proj == NAE(t xor eps): True
+  eps (1, 0, 0) gauge mask 170 proj == NAE(t xor eps): True
+  eps (1, 0, 1) gauge mask 238 proj == NAE(t xor eps): True
+  eps (1, 1, 0) gauge mask 34 proj == NAE(t xor eps): True
+  eps (1, 1, 1) gauge mask 102 proj == NAE(t xor eps): True
+Lemma 2.3(4) all 8 sign patterns: True
+cycles of Q3: 28 by length: {4: 6, 6: 16, 8: 6}
+loop atoms: 168
+planted +-1 couplings in K(Q3): 63 / 63
+random real W in P(Q3) (on its boundary) that lie in K(Q3): 400 / 400
+all loop atoms in P(Q3): True
+MET(Q3) cycle inequalities: 1328
++-1 couplings with min_{MET(Q3)} != min H_C: 0 / 4096
